@@ -159,10 +159,4 @@ def mcp_endpoint():
 def health():
     """健康检查"""
     return jsonify({"status": "running", "service": "pushplus-wechat-mcp"})
-
-
-# 本地测试用
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8080))
-    print(f"本地启动在端口 {port}")
-    app.run(host='0.0.0.0', port=port)
+    
