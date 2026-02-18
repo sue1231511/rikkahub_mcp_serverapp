@@ -12,7 +12,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # PushPlus配置
-PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "54a510cdbae64c7bbf2f95e7cb9af9d1")
+PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "682d8efdece349f086830643d03e0bde")
 
 # 会话管理
 sessions = {}
